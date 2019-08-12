@@ -3,6 +3,7 @@
 @import "splash.css";
 
 body {
+  color: #66fcf1;
   font-family: "Source Code Pro", monospace;
   background-color: #0b0c10;
 }
