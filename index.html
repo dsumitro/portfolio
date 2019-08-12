@@ -3,33 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <!-- TODO: REMOVE ALL STYLE ATTRIBUTES -->
     <header>
-      <section>
-        <!-- Links -->
-        <nav>
-          <a href="https://github.com/dsumitro" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/deansumitro/" target="_blank"
-            >Linkedin</a
-          >
-          <a href="https://medium.com/d27-portfolio" target="_blank">Medium</a>
-        </nav>
+      <!-- Resume -->
+      <!-- TODO: add Resume to Button -->
+      <!-- Links -->
+      <nav id="links">
         <!-- TODO: Insert Logo -->
-        <img
-          src="./images/example login pic.jpg"
-          alt=""
-          style="max-width: 40px"
-        />
-        <!-- Resume -->
-        <!-- TODO: add Resume to Button -->
-        <button type="button">Resume</button>
-      </section>
+        <section id="logo">
+          <img src="./images/example login pic.jpg" alt="" />
+        </section>
+        <section id="resume">
+          <a
+            href="https://drive.google.com/file/d/0B3p_uBkSxELsQWNZTUU3Wm1WRFdxQngtNk5NWHBacVVmUElJ/view"
+            target="_blank"
+            >Resume</a
+          >
+        </section>
+        <ui>
+          <li>
+            <a href="https://github.com/dsumitro" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/deansumitro/" target="_blank"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a href="https://medium.com/d27-portfolio" target="_blank"
+              >Medium</a
+            >
+          </li>
+        </ui>
+      </nav>
     </header>
     <main>
-      <section>
+      <section id="splash">
         <!-- Intro Blurb -->
         <!-- TODO: Add Image -->
         <h1>
@@ -45,11 +58,7 @@
       <section>
         <!-- Projects -->
         <h2>Projects</h2>
-        <img
-          src="./images/TransparentFlowLogo.png"
-          alt=""
-          style="max-width: 100px"
-        />
+        <img src="./images/TransparentFlowLogo.png" alt="" />
         <!-- Add hyperlink to Flow stuff -->
         <h4>Flow</h4>
         <h3>

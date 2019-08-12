@@ -1,0 +1,30 @@
+#splash {
+  padding: 50px;
+  text-align: center;
+  height: 50vh;
+  min-height: 300px;
+  /* created a semitransparent overlay and applied it to the url img
+    1.0 is completely opaque, 0.0 is completely clear */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/martin-adams-pTCcJSBOTxY-unsplash.jpg);
+  background-size: cover;
+  color: hsl(208, 100%, 97%);
+}
+#splash h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  color: hsl(210, 2%, 78%);
+  font-size: 2rem;
+}
+#splash h3 {
+  text-align: left;
+  color: hsl(210, 2%, 78%);
+  font-size: 2rem;
+}
+#splash p {
+  text-align: left;
+  color: hsla(210, 2%, 78%, 0.75);
+  font-size: 2rem;
+  max-width: 42rem;
+}
