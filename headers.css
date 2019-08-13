@@ -10,14 +10,14 @@ header {
   line-height: 1.5rem;
 }
 #links a {
-  color: #66fcf1;
-  transition: text-shadow 0.75s;
+  color: #026670;
+  transition: text-shadow 1s;
 }
 #links a:hover {
-  text-shadow: 5px 0px 20px hsla(210, 2%, 78%, 0.55),
-    0px 5px 20px hsla(210, 2%, 78%, 0.55),
-    -5px 0px 20px hsla(210, 2%, 78%, 0.55),
-    0px -5px 20px hsla(210, 2%, 78%, 0.55);
+  text-shadow: 5px 0px 20px hsla(220, 18%, 25%, 0.75),
+    0px 5px 20px hsla(220, 18%, 25%, 0.75),
+    -5px 0px 20px hsla(220, 18%, 25%, 0.75),
+    0px -5px 20px hsla(220, 18%, 25%, 0.75);
 }
 #resume a {
   padding: 10px;

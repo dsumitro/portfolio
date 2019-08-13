@@ -8,23 +8,23 @@
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(images/martin-adams-pTCcJSBOTxY-unsplash.jpg);
   background-size: cover;
-  color: hsl(208, 100%, 97%);
+  color: #edeae5;
 }
 #splash h1 {
   text-align: left;
   margin-bottom: 1rem;
   font-size: 5rem;
-  color: hsl(210, 2%, 78%);
+  color: #edeae5;
   font-size: 2rem;
 }
 #splash h3 {
   text-align: left;
-  color: hsl(210, 2%, 78%);
+  color: #edeae5;
   font-size: 2rem;
 }
 #splash p {
   text-align: left;
-  color: hsla(210, 2%, 78%, 0.75);
+  color: #edeae5;
   font-size: 2rem;
   max-width: 42rem;
 }
